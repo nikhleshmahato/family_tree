@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.box {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    border: 2px solid red; /* Red border for the parent box */
+    padding: 10px;
+}
+
+.line {
+    width: 2px;
+    height: 40px; /* Adjust line height */
+    background-color: black;
+    margin: 0 auto;
+}
+
+.child {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

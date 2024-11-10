@@ -1,0 +1,32 @@
+{
+    "parents": [
+        {
+            "name": "Parent 1",
+            "image": "https://via.placeholder.com/100"
+        },
+        {
+            "name": "Parent 2",
+            "image": "https://via.placeholder.com/100"
+        }
+    ],
+    "newParents": [
+        {
+            "name": "New Parent 1",
+            "image": "https://via.placeholder.com/100"
+        },
+        {
+            "name": "New Parent 2",
+            "image": "https://via.placeholder.com/100"
+        }
+    ],
+    "children": [
+        {
+            "name": "Child 1",
+            "image": "https://via.placeholder.com/100"
+        },
+        {
+            "name": "Child 2",
+            "image": "https://via.placeholder.com/100"
+        }
+    ]
+}
